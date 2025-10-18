@@ -8,7 +8,13 @@
           <xs:complexType>
             <xs:sequence>
               <xs:element name="player_name" type="xs:string"/>
-              <xs:element name="position" type="xs:string"/>
+              <xs:element name="positions">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="position" type="xs:string" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
               <xs:element name="left_right_foot" type="xs:string" minOccurs="0"/>
               <xs:element name="date_of_birth" type="xs:date" minOccurs="0"/>
               <xs:element name="clubs">
