@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="players">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="player" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="player_name" type="xs:string"/>
+              <xs:element name="position" type="xs:string"/>
+              <xs:element name="left_right_foot" type="xs:string" minOccurs="0"/>
+              <xs:element name="date_of_birth" type="xs:date" minOccurs="0"/>
+              <xs:element name="clubs">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="club" type="xs:string" maxOccurs="unbounded"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="height_cm" type="xs:float" minOccurs="0"/>
+              <xs:element name="nationality" type="xs:string"/>
+              <xs:element name="transfer_value" type="xs:float" minOccurs="0"/>
+              <xs:element name="career_appearances" type="xs:int" minOccurs="0"/>
+              <xs:element name="career_goals" type="xs:int" minOccurs="0"/>
+              <xs:element name="pace" type="xs:int" minOccurs="0"/>
+              <xs:element name="finishing" type="xs:int" minOccurs="0"/>
+              <xs:element name="passing" type="xs:int" minOccurs="0"/>
+              <xs:element name="dribbling" type="xs:int" minOccurs="0"/>
+              <xs:element name="tackling" type="xs:int" minOccurs="0"/>
+              <xs:element name="strength" type="xs:int" minOccurs="0"/>
+              <xs:element name="reflexes_gk" type="xs:int" minOccurs="0"/>
+              <xs:element name="handling_gk" type="xs:int" minOccurs="0"/>
+              <xs:element name="penalty" type="xs:int" minOccurs="0"/>
+              <xs:element name="matches_played_3s" type="xs:int" minOccurs="0"/>
+              <xs:element name="minutes_played_3s" type="xs:float" minOccurs="0"/>
+              <xs:element name="goals_3s" type="xs:int" minOccurs="0"/>
+              <xs:element name="assists_3s" type="xs:int" minOccurs="0"/>
+              <xs:element name="penalty_goals_3s" type="xs:int" minOccurs="0"/>
+              <xs:element name="tackles_won_percentage_3s" type="xs:float" minOccurs="0"/>
+              <xs:element name="goals_per_shot_3s" type="xs:float" minOccurs="0"/>
+              <xs:element name="pass_completion_percentage_3s" type="xs:float" minOccurs="0"/>
+              <xs:element name="save_percentage_3s" type="xs:float" minOccurs="0"/>
+              <xs:element name="clean_sheet_percentage_3s" type="xs:float" minOccurs="0"/>
+              <xs:element name="penalty_save_percentage_3s" type="xs:float" minOccurs="0"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>
