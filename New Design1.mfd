@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited with Altova MapForce 2026 -->
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
+	<resources/>
+	<component name="defaultmap" uid="1" editable="1" blackbox="0">
+		<properties SelectedLanguage="builtin"/>
+		<structure>
+			<children>
+				<component name="constant" library="core" uid="7" kind="2">
+					<targets>
+						<datapoint pos="0" key="31"/>
+					</targets>
+					<view ltx="700" lty="-26" rbx="745" rby="-9"/>
+					<data>
+						<constant value="[" datatype="string"/>
+					</data>
+				</component>
+				<component name="replace" library="lang" uid="10" kind="5">
+					<sources>
+						<datapoint pos="0" key="34"/>
+						<datapoint pos="1" key="35"/>
+						<datapoint pos="2" key="36"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="37"/>
+					</targets>
+					<view ltx="532" lty="-26" rbx="633" rby="44"/>
+				</component>
+				<component name="replace" library="lang" uid="6" kind="5">
+					<sources>
+						<datapoint pos="0" key="38"/>
+						<datapoint pos="1" key="32"/>
+						<datapoint pos="2" key="63"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="57"/>
+					</targets>
+					<view ltx="875" lty="-26" rbx="976" rby="44"/>
+				</component>
+				<component name="target_schema" library="xml" uid="3" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
+					<view ltx="1248" lty="105" rbx="1603" rby="709"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="players" inpkey="64" expanded="1">
+										<entry name="player" inpkey="65" expanded="1">
+											<entry name="player_name" inpkey="1"/>
+											<entry name="positions" expanded="1">
+												<entry name="position" inpkey="44"/>
+											</entry>
+											<entry name="clubs" expanded="1">
+												<entry name="club" inpkey="58"/>
+											</entry>
+											<entry name="nationality" inpkey="4"/>
+											<entry name="matches_played_3s" inpkey="5"/>
+											<entry name="minutes_played_3s" inpkey="6"/>
+											<entry name="goals_3s" inpkey="7"/>
+											<entry name="assists_3s" inpkey="8"/>
+											<entry name="penalty_goals_3s" inpkey="9"/>
+											<entry name="tackles_won_percentage_3s" inpkey="10"/>
+											<entry name="goals_per_shot_3s" inpkey="11"/>
+											<entry name="pass_completion_percentage_3s" inpkey="12"/>
+											<entry name="save_percentage_3s" inpkey="13"/>
+											<entry name="clean_sheet_percentage_3s" inpkey="14"/>
+											<entry name="penalty_save_percentage_3s" inpkey="15"/>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="target_schema.xsd" instanceroot="{}players" outputinstance="target_schema.xml"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="15" kind="2">
+					<targets>
+						<datapoint pos="0" key="53"/>
+					</targets>
+					<view ltx="865" lty="259" rbx="910" rby="276"/>
+					<data>
+						<constant value="&apos;" datatype="string"/>
+					</data>
+				</component>
+				<component name="FBRef_Dataset (1)" library="text" uid="4" kind="16">
+					<properties/>
+					<view ltx="71" lty="224" rbx="289" rby="508"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1">
+									<entry name="Rows" outkey="66" expanded="1">
+										<entry name="Player" outkey="16"/>
+										<entry name="Nation" outkey="17"/>
+										<entry name="Squad" outkey="18"/>
+										<entry name="Pos" outkey="19"/>
+										<entry name="MP_Playing" outkey="20"/>
+										<entry name="Min_Playing" outkey="21"/>
+										<entry name="Gls" outkey="22"/>
+										<entry name="Ast" outkey="23"/>
+										<entry name="PK" outkey="24"/>
+										<entry name="G_per_Sh_Standard" outkey="25"/>
+										<entry name="Cmp_percent_Total" outkey="26"/>
+										<entry name="Save_percent" outkey="27"/>
+										<entry name="CS_Percent" outkey="28"/>
+										<entry name="Save_percent_Penalty" outkey="29"/>
+										<entry name="TklW_Percent" outkey="30"/>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<text type="csv" encoding="1000" byteorder="1" byteordermark="0" inputinstance="FBRef_Dataset (1).csv">
+							<settings separator="," quote="&quot;" firstrownames="true" removeempty="true">
+								<names root="FBRef_Dataset (1)" block="Rows">
+									<field0 name="Player" type="string"/>
+									<field1 name="Nation" type="string"/>
+									<field2 name="Squad" type="string"/>
+									<field3 name="Pos" type="string"/>
+									<field4 name="MP_Playing" type="string"/>
+									<field5 name="Min_Playing" type="string"/>
+									<field6 name="Gls" type="string"/>
+									<field7 name="Ast" type="string"/>
+									<field8 name="PK" type="string"/>
+									<field9 name="G_per_Sh_Standard" type="string"/>
+									<field10 name="Cmp_percent_Total" type="string"/>
+									<field11 name="Save_percent" type="string"/>
+									<field12 name="CS_Percent" type="string"/>
+									<field13 name="Save_percent_Penalty" type="string"/>
+									<field14 name="TklW_Percent" type="string"/>
+								</names>
+							</settings>
+						</text>
+					</data>
+				</component>
+				<component name="replace" library="lang" uid="13" kind="5">
+					<sources>
+						<datapoint pos="0" key="46"/>
+						<datapoint pos="1" key="48"/>
+						<datapoint pos="2" key="47"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="45"/>
+					</targets>
+					<view ltx="532" lty="105" rbx="633" rby="175"/>
+				</component>
+				<component name="constant" library="core" uid="11" kind="2">
+					<targets>
+						<datapoint pos="0" key="33"/>
+					</targets>
+					<view ltx="296" lty="105" rbx="341" rby="122"/>
+					<data>
+						<constant value="]" datatype="string"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="8" kind="2">
+					<targets>
+						<datapoint pos="0" key="39"/>
+					</targets>
+					<view ltx="284" lty="-26" rbx="326" rby="-9"/>
+					<data>
+						<constant datatype="string"/>
+					</data>
+				</component>
+				<component name="replace" library="lang" uid="12" kind="5">
+					<sources>
+						<datapoint pos="0" key="41"/>
+						<datapoint pos="1" key="42"/>
+						<datapoint pos="2" key="43"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="40"/>
+					</targets>
+					<view ltx="875" lty="105" rbx="976" rby="175"/>
+				</component>
+				<component name="replace" library="lang" uid="14" kind="5">
+					<sources>
+						<datapoint pos="0" key="50"/>
+						<datapoint pos="1" key="51"/>
+						<datapoint pos="2" key="52"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="49"/>
+					</targets>
+					<view ltx="1003" lty="224" rbx="1104" rby="294"/>
+				</component>
+				<component name="replace" library="lang" uid="17" kind="5">
+					<sources>
+						<datapoint pos="0" key="59"/>
+						<datapoint pos="1" key="60"/>
+						<datapoint pos="2" key="61"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="62"/>
+					</targets>
+					<view ltx="1003" lty="334" rbx="1104" rby="404"/>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="16">
+						<edges>
+							<edge vertexkey="1"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="17">
+						<edges>
+							<edge vertexkey="4"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="20">
+						<edges>
+							<edge vertexkey="5"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="21">
+						<edges>
+							<edge vertexkey="6"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="22">
+						<edges>
+							<edge vertexkey="7"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="23">
+						<edges>
+							<edge vertexkey="8"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="24">
+						<edges>
+							<edge vertexkey="9"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="30">
+						<edges>
+							<edge vertexkey="10"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="25">
+						<edges>
+							<edge vertexkey="11"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="26">
+						<edges>
+							<edge vertexkey="12"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="27">
+						<edges>
+							<edge vertexkey="13"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="28">
+						<edges>
+							<edge vertexkey="14"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="29">
+						<edges>
+							<edge vertexkey="15"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="31">
+						<edges>
+							<edge vertexkey="32"/>
+							<edge vertexkey="42"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="18">
+						<edges>
+							<edge vertexkey="34"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="33">
+						<edges>
+							<edge vertexkey="35"/>
+							<edge vertexkey="48"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="39">
+						<edges>
+							<edge vertexkey="36"/>
+							<edge vertexkey="43"/>
+							<edge vertexkey="47"/>
+							<edge vertexkey="52"/>
+							<edge vertexkey="61"/>
+							<edge vertexkey="63"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="37">
+						<edges>
+							<edge vertexkey="38"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="45">
+						<edges>
+							<edge vertexkey="41"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="62">
+						<edges>
+							<edge vertexkey="44"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="19">
+						<edges>
+							<edge vertexkey="46"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="57">
+						<edges>
+							<edge vertexkey="50"/>
+							<edge vertexkey="64"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="53">
+						<edges>
+							<edge vertexkey="51"/>
+							<edge vertexkey="60"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="49">
+						<edges>
+							<edge vertexkey="58"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="40">
+						<edges>
+							<edge vertexkey="59"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="66">
+						<edges>
+							<edge vertexkey="65"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+</mapping>
