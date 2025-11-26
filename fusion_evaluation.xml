@@ -1,0 +1,278 @@
+<?xml version="1.0" ?>
+<players>
+  <player>
+    <pydi_id>TM_040882</pydi_id>
+    <player_name>Edu Exposito</player_name>
+    <positions>
+      <position>MC</position>
+    </positions>
+    <date_of_birth>1996-08-01</date_of_birth>
+    <clubs>
+      <club>RCD Espanyol Barcelona</club>
+    </clubs>
+    <height_cm>178.0</height_cm>
+    <nationality>Spain</nationality>
+  </player>
+  <player>
+    <pydi_id>TM_060716</pydi_id>
+    <player_name>Lucas Moura</player_name>
+    <positions>
+      <position>AMR</position>
+    </positions>
+    <date_of_birth>1992-08-13</date_of_birth>
+    <clubs>
+      <club>Tottenham</club>
+      <club>Sao Paulo Futebol Clube</club>
+    </clubs>
+    <height_cm>172.0</height_cm>
+    <nationality>Brazil</nationality>
+  </player>
+  <player>
+    <pydi_id>TM_022432</pydi_id>
+    <player_name>Matthieu Udol</player_name>
+    <positions>
+      <position>DL</position>
+    </positions>
+    <date_of_birth>1996-03-20</date_of_birth>
+    <clubs>
+      <club>RC Lens</club>
+      <club>FC Metz</club>
+    </clubs>
+    <height_cm>178.0</height_cm>
+    <nationality>France  Guadeloupe</nationality>
+  </player>
+  <player>
+    <pydi_id>TM_021670</pydi_id>
+    <player_name>Brian Lozano</player_name>
+    <positions>
+      <position>AML</position>
+    </positions>
+    <date_of_birth>1994-02-23</date_of_birth>
+    <clubs>
+      <club>Defensor Sporting Club</club>
+      <club>Santos Laguna</club>
+      <club>Atlas</club>
+    </clubs>
+    <height_cm>169.0</height_cm>
+    <nationality>Uruguay</nationality>
+  </player>
+  <player>
+    <pydi_id>TM_055714</pydi_id>
+    <player_name>Ben Bobzien</player_name>
+    <positions>
+      <position>ST</position>
+    </positions>
+    <date_of_birth>2003-04-29</date_of_birth>
+    <clubs>
+      <club>1.FSV Mainz 05</club>
+    </clubs>
+    <height_cm>176.0</height_cm>
+    <nationality>Germany</nationality>
+  </player>
+  <player>
+    <pydi_id>TM_006792</pydi_id>
+    <player_name>Ismaily</player_name>
+    <positions>
+      <position>DL</position>
+    </positions>
+    <date_of_birth>1990-01-11</date_of_birth>
+    <clubs>
+      <club>Without Club</club>
+      <club>Lille</club>
+    </clubs>
+    <height_cm>177.0</height_cm>
+    <nationality>Brazil</nationality>
+  </player>
+  <player>
+    <pydi_id>TM_031071</pydi_id>
+    <player_name>Pablo Fornals</player_name>
+    <positions>
+      <position>MC</position>
+    </positions>
+    <date_of_birth>1996-02-22</date_of_birth>
+    <clubs>
+      <club>Real Betis Balompie</club>
+      <club>West Ham</club>
+    </clubs>
+    <height_cm>178.0</height_cm>
+    <nationality>Spain</nationality>
+  </player>
+  <player>
+    <pydi_id>TM_025292</pydi_id>
+    <player_name>Toni Kroos</player_name>
+    <positions>
+      <position>MC</position>
+    </positions>
+    <date_of_birth>1990-01-04</date_of_birth>
+    <clubs>
+      <club>Retired</club>
+      <club>Real Madrid</club>
+    </clubs>
+    <height_cm>183.0</height_cm>
+    <nationality>Germany</nationality>
+  </player>
+  <player>
+    <pydi_id>TM_065064</pydi_id>
+    <player_name>Hugo Larsson</player_name>
+    <positions>
+      <position>MC</position>
+    </positions>
+    <date_of_birth>2004-06-27</date_of_birth>
+    <clubs>
+      <club>Eintracht Frankfurt</club>
+      <club>Malmo</club>
+    </clubs>
+    <height_cm>187.0</height_cm>
+    <nationality>Sweden</nationality>
+  </player>
+  <player>
+    <pydi_id>TM_030561</pydi_id>
+    <player_name>Samuel Moutoussamy</player_name>
+    <positions>
+      <position>MC</position>
+    </positions>
+    <date_of_birth>1996-08-12</date_of_birth>
+    <clubs>
+      <club>Atromitos Athens</club>
+      <club>FC Nantes</club>
+    </clubs>
+    <height_cm>176.0</height_cm>
+    <nationality>DR Congo  France</nationality>
+  </player>
+  <player>
+    <pydi_id>TM_049530</pydi_id>
+    <player_name>Thomas Beelen</player_name>
+    <positions>
+      <position>DC</position>
+    </positions>
+    <date_of_birth>2001-06-11</date_of_birth>
+    <clubs>
+      <club>Feyenoord Rotterdam</club>
+      <club>PEC Zwolle</club>
+    </clubs>
+    <height_cm>190.0</height_cm>
+    <nationality>Netherlands</nationality>
+  </player>
+  <player>
+    <pydi_id>TM_057055</pydi_id>
+    <player_name>Jamie Donley</player_name>
+    <positions>
+      <position>MC</position>
+    </positions>
+    <date_of_birth>2005-01-03</date_of_birth>
+    <clubs>
+      <club>Stoke City</club>
+    </clubs>
+    <height_cm>183.0</height_cm>
+    <nationality>Northern Ireland  England</nationality>
+  </player>
+  <player>
+    <pydi_id>TM_033824</pydi_id>
+    <player_name>Javi Puado</player_name>
+    <positions>
+      <position>AML</position>
+    </positions>
+    <date_of_birth>1998-05-25</date_of_birth>
+    <clubs>
+      <club>RCD Espanyol Barcelona</club>
+    </clubs>
+    <height_cm>177.0</height_cm>
+    <nationality>Spain</nationality>
+  </player>
+  <player>
+    <pydi_id>TM_020212</pydi_id>
+    <player_name>Bernardo Silva</player_name>
+    <positions>
+      <position>AMC</position>
+    </positions>
+    <date_of_birth>1994-08-10</date_of_birth>
+    <clubs>
+      <club>Manchester City</club>
+    </clubs>
+    <height_cm>173.0</height_cm>
+    <nationality>Portugal</nationality>
+  </player>
+  <player>
+    <pydi_id>TM_050859</pydi_id>
+    <player_name>Diego Moreno</player_name>
+    <positions>
+      <position>DR</position>
+    </positions>
+    <date_of_birth>2001-06-21</date_of_birth>
+    <clubs>
+      <club>SD Ponferradina</club>
+      <club>CA Osasuna</club>
+    </clubs>
+    <height_cm>177.0</height_cm>
+    <nationality>Spain</nationality>
+  </player>
+  <player>
+    <pydi_id>TM_031347</pydi_id>
+    <player_name>Sven Botman</player_name>
+    <positions>
+      <position>DC</position>
+    </positions>
+    <date_of_birth>2000-01-12</date_of_birth>
+    <clubs>
+      <club>Newcastle United</club>
+      <club>Lille</club>
+    </clubs>
+    <height_cm>193.0</height_cm>
+    <nationality>Netherlands</nationality>
+  </player>
+  <player>
+    <pydi_id>TM_026255</pydi_id>
+    <player_name>Bobby Adekanye</player_name>
+    <positions>
+      <position>AMR</position>
+    </positions>
+    <date_of_birth>1999-02-14</date_of_birth>
+    <clubs>
+      <club>Manisa FK</club>
+      <club>Go Ahead Eagles</club>
+    </clubs>
+    <height_cm>175.0</height_cm>
+    <nationality>Netherlands  Nigeria</nationality>
+  </player>
+  <player>
+    <pydi_id>TM_033653</pydi_id>
+    <player_name>Ademola Lookman</player_name>
+    <positions>
+      <position>ST</position>
+    </positions>
+    <date_of_birth>1997-10-20</date_of_birth>
+    <clubs>
+      <club>Atalanta BC</club>
+    </clubs>
+    <height_cm>174.0</height_cm>
+    <nationality>Nigeria  England</nationality>
+  </player>
+  <player>
+    <pydi_id>TM_022615</pydi_id>
+    <player_name>Danel Sinani</player_name>
+    <positions>
+      <position>AMC</position>
+    </positions>
+    <date_of_birth>1997-04-05</date_of_birth>
+    <clubs>
+      <club>FC St. Pauli</club>
+      <club>Norwich City</club>
+    </clubs>
+    <height_cm>185.0</height_cm>
+    <nationality>Luxembourg  Serbia</nationality>
+  </player>
+  <player>
+    <pydi_id>TM_034192</pydi_id>
+    <player_name>Bryan Mbeumo</player_name>
+    <positions>
+      <position>AMR</position>
+    </positions>
+    <date_of_birth>1999-08-07</date_of_birth>
+    <clubs>
+      <club>Manchester United</club>
+      <club>Brentford FC</club>
+    </clubs>
+    <height_cm>171.0</height_cm>
+    <nationality>Cameroon  France</nationality>
+  </player>
+</players>
