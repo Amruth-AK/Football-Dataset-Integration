@@ -2,7 +2,7 @@
 <players>
   <player>
     <pydi_id>TM_040882</pydi_id>
-    <player_name>Edu Exposito</player_name>
+    <player_name>Edu Expósito</player_name>
     <positions>
       <position>MC</position>
     </positions>
@@ -50,7 +50,7 @@
     <date_of_birth>1994-02-23</date_of_birth>
     <clubs>
       <club>Defensor Sporting Club</club>
-      <club>Santos Laguna</club>
+      <club>Santos</club>
       <club>Atlas</club>
     </clubs>
     <height_cm>169.0</height_cm>
@@ -91,7 +91,7 @@
     </positions>
     <date_of_birth>1996-02-22</date_of_birth>
     <clubs>
-      <club>Real Betis Balompie</club>
+      <club>Real Betis Balompié</club>
       <club>West Ham</club>
     </clubs>
     <height_cm>178.0</height_cm>
@@ -120,7 +120,7 @@
     <date_of_birth>2004-06-27</date_of_birth>
     <clubs>
       <club>Eintracht Frankfurt</club>
-      <club>Malmo</club>
+      <club>Malmö FF</club>
     </clubs>
     <height_cm>187.0</height_cm>
     <nationality>Sweden</nationality>
@@ -133,7 +133,6 @@
     </positions>
     <date_of_birth>1996-08-12</date_of_birth>
     <clubs>
-      <club>Atromitos Athens</club>
       <club>FC Nantes</club>
     </clubs>
     <height_cm>176.0</height_cm>
@@ -201,7 +200,7 @@
     <date_of_birth>2001-06-21</date_of_birth>
     <clubs>
       <club>SD Ponferradina</club>
-      <club>CA Osasuna</club>
+      <club>Osasuna</club>
     </clubs>
     <height_cm>177.0</height_cm>
     <nationality>Spain</nationality>
@@ -215,7 +214,6 @@
     <date_of_birth>2000-01-12</date_of_birth>
     <clubs>
       <club>Newcastle United</club>
-      <club>Lille</club>
     </clubs>
     <height_cm>193.0</height_cm>
     <nationality>Netherlands</nationality>
@@ -270,9 +268,148 @@
     <date_of_birth>1999-08-07</date_of_birth>
     <clubs>
       <club>Manchester United</club>
-      <club>Brentford FC</club>
+      <club>Brentford</club>
     </clubs>
     <height_cm>171.0</height_cm>
     <nationality>Cameroon  France</nationality>
+  </player>
+  <player>
+    <pydi_id>TM_023886</pydi_id>
+    <player_name>Lucas Hernández</player_name>
+    <positions>
+      <position>DL</position>
+    </positions>
+    <date_of_birth>1996-02-14</date_of_birth>
+    <clubs>
+      <club>Paris Saint-Germain</club>
+      <club>Bayern Munich</club>
+    </clubs>
+    <height_cm>184.0</height_cm>
+    <nationality>France  Spain</nationality>
+  </player>
+  <player>
+    <pydi_id>TM_045058</pydi_id>
+    <player_name>Youri Regeer</player_name>
+    <positions>
+      <position>MC</position>
+    </positions>
+    <date_of_birth>2003-08-18</date_of_birth>
+    <clubs>
+      <club>Twente FC</club>
+      <club>Ajax Amsterdam</club>
+    </clubs>
+    <height_cm>177.0</height_cm>
+    <nationality>Netherlands</nationality>
+  </player>
+  <player>
+    <pydi_id>TM_044960</pydi_id>
+    <player_name>Nathanael Mbuku</player_name>
+    <positions>
+      <position>AML</position>
+    </positions>
+    <date_of_birth>2002-03-16</date_of_birth>
+    <clubs>
+      <club>Montpellier HSC</club>
+      <club>FC Augsburg</club>
+      <club>Reims</club>
+    </clubs>
+    <height_cm>170.0</height_cm>
+    <nationality>DR Congo  France</nationality>
+  </player>
+  <player>
+    <pydi_id>TM_041558</pydi_id>
+    <player_name>Sergio Asenjo</player_name>
+    <positions>
+      <position>GK</position>
+    </positions>
+    <date_of_birth>1989-06-28</date_of_birth>
+    <clubs>
+      <club>Retired</club>
+      <club>Real Valladolid</club>
+    </clubs>
+    <height_cm>189.0</height_cm>
+    <nationality>Spain</nationality>
+  </player>
+  <player>
+    <pydi_id>TM_013555</pydi_id>
+    <player_name>Riyad Mahrez</player_name>
+    <positions>
+      <position>AMR</position>
+    </positions>
+    <date_of_birth>1991-02-21</date_of_birth>
+    <clubs>
+      <club>Al-Ahli SFC</club>
+      <club>Manchester City</club>
+    </clubs>
+    <height_cm>179.0</height_cm>
+    <nationality>Algeria  France</nationality>
+  </player>
+  <player>
+    <pydi_id>TM_002400</pydi_id>
+    <player_name>Mattia Perin</player_name>
+    <positions>
+      <position>GK</position>
+    </positions>
+    <date_of_birth>1992-11-10</date_of_birth>
+    <clubs>
+      <club>Juventus FC</club>
+    </clubs>
+    <height_cm>188.0</height_cm>
+    <nationality>Italy</nationality>
+  </player>
+  <player>
+    <pydi_id>TM_021044</pydi_id>
+    <player_name>Niklas Dorsch</player_name>
+    <positions>
+      <position>DM</position>
+    </positions>
+    <date_of_birth>1998-01-15</date_of_birth>
+    <clubs>
+      <club>1.FC Heidenheim 1846</club>
+      <club>FC Augsburg</club>
+    </clubs>
+    <height_cm>178.0</height_cm>
+    <nationality>Germany</nationality>
+  </player>
+  <player>
+    <pydi_id>TM_053529</pydi_id>
+    <player_name>Rico Lewis</player_name>
+    <positions>
+      <position>DR</position>
+    </positions>
+    <date_of_birth>2004-11-21</date_of_birth>
+    <clubs>
+      <club>Manchester City</club>
+    </clubs>
+    <height_cm>170.0</height_cm>
+    <nationality>England</nationality>
+  </player>
+  <player>
+    <pydi_id>TM_048425</pydi_id>
+    <player_name>Sebastian Nanasi</player_name>
+    <positions>
+      <position>ML</position>
+    </positions>
+    <date_of_birth>2002-05-16</date_of_birth>
+    <clubs>
+      <club>RC Strasbourg Alsace</club>
+      <club>Kalmar FF</club>
+    </clubs>
+    <height_cm>178.0</height_cm>
+    <nationality>Sweden  Hungary</nationality>
+  </player>
+  <player>
+    <pydi_id>TM_011846</pydi_id>
+    <player_name>Arkadiusz Milik</player_name>
+    <positions>
+      <position>ST</position>
+    </positions>
+    <date_of_birth>1994-02-28</date_of_birth>
+    <clubs>
+      <club>Juventus FC</club>
+      <club>Marseille</club>
+    </clubs>
+    <height_cm>186.0</height_cm>
+    <nationality>Poland</nationality>
   </player>
 </players>
