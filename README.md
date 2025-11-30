@@ -1,4 +1,4 @@
-🏆 Football Dataset Integration
+# **🏆 Football Dataset Integration**
 Integrating Football Manager, Transfermarkt, and FBref into a unified player database using PyDI
 
 This repository contains the full pipeline for integrating multiple football player datasets into a single, consistent, fused knowledge base.
